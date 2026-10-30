@@ -54,6 +54,7 @@ a:hover { text-decoration: underline; }
 .topnav a:hover { color: var(--heading); text-decoration: none; }
 
 .banner { margin: 0 0 8px; }
+.banner figcaption { font-size: .85em; color: var(--muted); margin-top: 6px; }
 .banner img { display: block; width: 100%; height: auto; }
 .banner-placeholder {
   display: flex; align-items: center; justify-content: center; text-align: center;
@@ -104,3 +105,5 @@ footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--rule);
 }
 
 li a { overflow-wrap: anywhere; }
+.sidebar { scrollbar-width: none; }
+.sidebar::-webkit-scrollbar { display: none; }

@@ -5,13 +5,13 @@ A plain HTML/CSS site (no build step) laid out like shirokuriwaki.com: a fixed b
 ## Files
 - `index.html`: all page content. Edit the text directly.
 - `style.css`: layout and colours.
-- `images/`: put `headshot.jpg` (square) and `banner.png` (a wide research figure) here.
+- `images/headshot.jpg`: sidebar photo (square). `images/banner.png`: the research figure at the top of the main column.
 - `cv/barberia_cv.pdf`: the CV the sidebar links to.
 
 ## Editing
 - **Add a paper:** copy an existing `<li>...</li>` block in the right section and change the title, link, coauthors, and venue. The `<details>` block (the abstract) and the `Copy BibTeX` button with its `<template>` are optional.
-- **Draft markers:** text tagged `<span class="todo">...</span>` shows as a yellow label. Fill in the content, then delete the span.
-- **Photo / banner:** in `index.html`, change `images/headshot.svg` to `images/headshot.jpg`, and replace the `banner-placeholder` div with `<img src="images/banner.png" alt="...">`.
+- **Replace the CV:** upload a new `cv/barberia_cv.pdf` with the same name.
+- **Banner:** to change the figure, upload a new `images/banner.png` with the same name.
 
 ## Preview locally
 ```
